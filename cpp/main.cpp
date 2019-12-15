@@ -65,6 +65,12 @@ int main()
   cout << agePtr << endl;
   cout << *agePtr << endl;
 
+/*
+  #include <iostream>
+  using namespace std;
+  int main()
+*/
+
 //  return 0;
 
 //  exit(0);
