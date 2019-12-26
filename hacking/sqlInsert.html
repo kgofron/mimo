@@ -1,0 +1,8 @@
+// bronze challange: change the ID of the user with email address fank@dark.net to 123
+x'; UPDATE users SET id = 123 WHERE email_address = 'frank@dark.net
+
+// silver challange: change the ID of a user with the front name Alice to 456
+x'; UPDATE users SET id = 456 WHERE user_name = '%Alice%
+
+// Gold challange: insert a new user for yourself into the database. Need to take care of the email_address field.
+x'; INSERT INTO users ('email_address') VALUES ('me@me.com'); --
