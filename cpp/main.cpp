@@ -1,5 +1,7 @@
 #include <iostream>
 #include <cstdlib>
+#include <ctime>
+// perceeding c means import from c library
 
 using namespace std;
 
