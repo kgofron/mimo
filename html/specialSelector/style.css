@@ -1,0 +1,67 @@
+/* Pseud-element */
+h3:hover {
+    color: #FF00FF;
+}
+
+/* Pseudo-element */
+p::first-letter {
+    font-size: 2em;
+}
+h2::first-letter {
+    font-size: xx-large;
+}
+
+/* Universal selector */
+* {
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+*.box {background: #44b3c2;}
+
+/* descendant element */
+p span {
+    font-weight: bold;
+}
+
+/* Immediat child selector */
+div > h2 {
+    font-style: italic;
+}
+/* First children */
+li:first-child {
+    background-color: aqua ;
+}
+
+/* Any attribute /attribute values as selectors */
+a[ href = "https://getmimo.com"] {
+    font-weight: bolder;
+}
+
+/* Grouping selectors */
+div, .trailer, #listItem1 {
+    border: 2px solid #44accf;
+}
+
+/* Combining selectors - no spaces between */
+.blue.bordered {
+    border: 2px solid #7cc4dd;
+}
+.pink.bordered {
+    border: 2px solid #f37792;
+}
+.blue { background: #44accf;}
+.pink { background: #ee3e64;}
+
+/* Specificity: Types < classes < ID */
+#box1 {
+    background: green;
+}
+.box2 {
+    background: red;
+    width: 200px;
+    height: 200px;
+}
+div { 
+    background: firebrick;
+    border: 2px solid black;
+}

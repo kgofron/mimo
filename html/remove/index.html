@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+    <body id="parent">
+        <h2>Facebook</h2>
+        <p id="child">Meg: Movie later?</p>
+        <script>
+            var bodyElement = document.getElementById("parent");
+            var paragraph = document.getElementById("child");
+            bodyElement.removeChild(paragraph);
+        </script>
+    </body>
+</html>

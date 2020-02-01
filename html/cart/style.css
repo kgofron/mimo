@@ -1,0 +1,49 @@
+img {
+ /*   transform: rotate(20deg); */
+    border-radius: 50px 0 0 0; 
+  /*  border-radius: 50px; */
+}
+/*
+.trans {
+    transform: rotate(20deg);
+}
+
+#lhouse {
+    transform: rotate(-10deg);
+}
+
+button {
+    border: solid 3px;
+    transform: rotate(20deg);
+    width: 100px;
+    text-align: center;
+}
+*/
+
+body {
+    text-align: center;
+    color: midnightBlue;
+    font-family: Helvetica Neue;
+}
+
+#orderTotal {
+    margin-right: 16px;
+    text-align: right;
+}
+
+#itemCounter {
+    position: absolute;
+    right: 56px;
+    top: 0px;
+}
+
+#basketImage {
+    position: absolute;
+    right: 16px;
+    top: 16px;
+}
+
+.product {
+    display: inline-block;
+    margin: 5px;
+}
